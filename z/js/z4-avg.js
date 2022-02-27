@@ -10,3 +10,6 @@ for (let i = 0; i < arr.length; i++) {
     sum = sum + arr[i];
 };
 alert(sum);
+let avg = 0;
+avg = sum / (arr.length + 1);
+alert(avg);

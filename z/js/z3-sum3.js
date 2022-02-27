@@ -1,12 +1,12 @@
 let arr = [];
-for (let i = 2; i < 345; i++) {
-    if (i % 2 === 0) {
+for (let i = 3; i < 500; i++) {
+    if (i % 3 === 0) {
         arr.push(i);
     } 
 };
 alert(arr);
-let sum = 0
+let sum = 1
 for (let i = 0; i < arr.length; i++) {
-    sum = sum + arr[i];
+    sum = sum * arr[i];
 };
 alert(sum);
